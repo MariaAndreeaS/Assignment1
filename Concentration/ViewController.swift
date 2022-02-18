@@ -42,7 +42,7 @@ class ViewController: UIViewController {
                 button.backgroundColor=UIColor.white
             }else{
                 button.setTitle("", for: UIControl.State.normal)
-                button.backgroundColor=card.isMatched ? UIColor.white.withAlphaComponent(0) : UIColor.orange
+                button.backgroundColor=card.isMatched ? UIColor.white.withAlphaComponent(0) : UIColor.systemPurple
             }
         }
     }
