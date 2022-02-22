@@ -12,6 +12,7 @@ struct Card
     var isFaceUp = false
     var isMatched = false
     var identifier : Int
+    var seen = false
 
     static var identifierFactory = 0
 
@@ -23,5 +24,6 @@ struct Card
     init(){
         self.identifier = Card.getUniqueIdentifier()
     }
-    
+
+   
 }
