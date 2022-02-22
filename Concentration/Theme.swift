@@ -23,7 +23,7 @@ struct Theme{
         self.buttonColor=buttonColor
     }
 
-    public static let themes = [
+    static let themes = [
         Theme(emoji:["🤩","😍","🥳","😅","🤓","😎","😚","😏"],backgroundcolor:UIColor.systemCyan, buttonColor: UIColor.magenta),
         Theme(emoji: ["💀","👻","🎃","🤡","👽","🤖", "👾","🧛‍♀️"],backgroundcolor:UIColor.systemBrown,buttonColor: UIColor.systemMint),
         Theme(emoji: ["🇦🇩","🇺🇸","🏳","🇹🇩","🇻🇳","🏳️‍🌈","🏳️‍⚧️","🇺🇳"], backgroundcolor:UIColor.systemMint,buttonColor: UIColor.systemYellow),
